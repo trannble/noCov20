@@ -7,7 +7,7 @@ function Map(props) {
 
 	const { center, zoom } = props;
 
-	// map will rerender whenever center or zoom changes
+	// map will rerender whenever center or zoom changes (by user, location, etc)
 	useEffect(() => {
 		new window.ol.Map({
 			target: mapRef.current.id,
