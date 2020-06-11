@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react';
 
 import './Map.css';
 
-const Map = (props) => {
+function Map(props) {
 	const mapRef = useRef();
 
 	const { center, zoom } = props;
@@ -30,6 +30,6 @@ const Map = (props) => {
 			style={props.style}
 			id='map'></div>
 	);
-};
+}
 
 export default Map;

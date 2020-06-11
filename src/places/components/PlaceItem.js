@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Card from '../../shared/components/UIElements/Card';
 import Button from '../../shared/components/FormElements/Button';
 import Modal from '../../shared/components/UIElements/Modal';
-import Map from '../../shared/components/UIElements/Modal';
+import Map from '../../shared/components/UIElements/Map';
 import './PlaceItem.css';
 
 function PlaceItem(props) {
@@ -27,8 +27,8 @@ function PlaceItem(props) {
 				footerClass='place-item__modal-actions'
 				footer={<Button onClick={closeMapHandler}>CLOSE</Button>}>
 				<div className='map-container'>
-					{/* render more info - i.e. other people's comments */}
-					<Map center={props.coordinates} zoom={16} id={props.id} />
+					{/* render more info & change button name - i.e. other people's comments */}
+					<Map center={props.coordinates} zoom={15} />
 				</div>
 			</Modal>
 
