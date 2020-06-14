@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Card from '../../shared/components/UIElements/Card';
+import Button from '../../shared/components/FormElements/Button';
 import PlaceItem from './PlaceItem';
 import './PlaceList.css';
 
@@ -13,7 +14,7 @@ function PlaceList(props) {
 						😔 No place updates found. Can you help others to social distance by
 						adding one?
 					</h2>
-					<button>Share Place Updates</button>
+					<Button to='/places/new'>Share Place Updates</Button>
 				</Card>
 			</div>
 		);

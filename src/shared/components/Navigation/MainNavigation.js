@@ -35,7 +35,7 @@ function MainNavigation(props) {
 					<span />
 				</button>
 				<h1 className='main-navigation__title'>
-					<Link to='/'>noCov20</Link>
+					<Link to='/'>😷noCov20</Link>
 				</h1>
 				<nav className='main-navigation__header-nav'>
 					<NavLinks />

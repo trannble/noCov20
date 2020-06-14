@@ -26,9 +26,10 @@ function inputReducer(state, action) {
 function Input(props) {
 	// reducer, initial state of component (optional)
 	const [inputState, dispatch] = useReducer(inputReducer, {
-		value: '',
+		// value/validity = old (for form edits) or nothing&false
+		value: props.initialValue || '',
 		isTouched: false,
-		isValid: false,
+		isValid: props.initialValid || false,
 	});
 
 	const { id, onInput } = props;
