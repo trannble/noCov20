@@ -11,7 +11,7 @@ We are nowhere near the end of the pandemic, yet businesses must reopen to survi
 
 # What it does
 
-noCov20 is an easy-to-use platform where people of all ages can search and share their experiences at different locations. This allows people to identify places to avoid, what to keep in mind before coming, learn from the experiences of others, and continue social distancing while the world world resumes.
+noCov20 is an easy-to-use platform where people of all ages can search and share their experiences at different locations. This allows people to identify places to avoid, what to keep in mind before coming, learn from the experiences of others, and continue social distancing while the world resumes.
 
 Add your experiences on the live web app: https://nocov20.web.app/
 
