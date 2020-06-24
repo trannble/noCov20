@@ -30,15 +30,15 @@ Behind-the-scene features:
 
 ![Image of MERN STACK](https://miro.medium.com/proxy/1*FVtCyRdJ6KOr4YswTtwMeA.jpeg)
 ✰ FRONTEND
-REACT: all UI, lazy-load for optimized performance, dynamic page changes without reloads
-HTML/CSS: basics and styling
+- REACT: all UI, lazy-load for optimized performance, dynamic page changes without reloads
+- HTML/CSS: basics and styling
 
 ✰ BACKEND
-NODE.JS: Server
-EXPRESS.JS: Framework for Node.js
-MONGODB: persistent data storage
-FIREBASE: hosts front-end
-HEROKU: hosts back-end
+- NODE.JS: Server
+- EXPRESS.JS: Framework for Node.js
+- MONGODB: persistent data storage
+- FIREBASE: hosts front-end
+- HEROKU: hosts back-end
 
 # More Information
 
