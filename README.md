@@ -24,7 +24,7 @@ Behind-the-scene features:
 
 # Watch The Demo
 
-[![Watch the video](image here)](https://youtu.be/nWTxrr7AXlI)
+[![Watch the video](https://github.com/trannble/noCov20/blob/a160d9e3af34caab87ca38b3b612764fdb35be5c/noCov20.png?raw=true)](https://youtu.be/nWTxrr7AXlI)
 
 # Tech Stack
 
